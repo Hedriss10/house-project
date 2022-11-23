@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "house.db",
+            "database": "${workspaceFolder:house-project}/data/house.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
