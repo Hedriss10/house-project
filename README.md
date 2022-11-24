@@ -11,7 +11,7 @@
 * Conceitos matematicos
 * Modelos de visualizações 
 * Informações para agregar ao mercado  
-* Filtragem com  e suas operações<strong>SQL </strong>
+* Filtragem com  e suas operações<strong> SQL</strong>
 
 **Módulo Pandas**
 
@@ -30,8 +30,8 @@ Organização Projeto.
     │   ├── external       <- Data from third party sources excel lib.
     │
     ├── docs
-    │   ├── data       <- Querys Resumidas
-    │   ├── figures   <- Figuras gráficas 
+    │   ├── data        <- Querys Resumidas
+    │   ├── figures     <- Figuras gráficas 
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
