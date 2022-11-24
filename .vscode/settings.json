@@ -3,7 +3,7 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "name": "house.db",
+            "name": "house",
             "database": "${workspaceFolder:house-project}/data/house.db"
         }
     ],

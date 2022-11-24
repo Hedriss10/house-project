@@ -25,9 +25,11 @@ conection = sqlalchemy.create_engine( str_connection )
 """
 for f in file_names:
     df_tmp = pd.read_csv( os.path.join( data_dir, f ) )
-    table_name = "tb_" +  f.replace('project-', '').replace('house', '').strip(".csv")
-    df_tmp.to_sql( table_name, conection )    
+    table_name = "tb_house" +  f.replace('project-', 'house').replace('house', '').strip(".csv")
+    df_tmp.to_sql( table_name, conection )      
     
+    
+
     
     
     

@@ -1,11 +1,25 @@
 # Projeto analíse de dados 
 
-*Este projeto iremos do básico ao termo mais avançado, com tratamento de dados e possíves querys, em resumo á base de dados é do <a href="">Arnib</a>*
+*Para fins educacionais, este projeto é do termo mais básico ao avançado , Utilizaremos dados de New York City, mas com algumas colunas a menos, e com apenas uma fração das linhas. O conjunto de dados foi disponibilizado junto dos links da aula, mas pode ser baixado também por <a href="https://raw.githubusercontent.com/rafaelnduarte/sigmoidal_data/master/data.csv">Aqui.</a>*
+
+**Conceitos teoricos sobre o projeto**:
+
+*Conceitos básicos de SQL, neste projeto pego algumas querys do banco de dados e puxo algumas informações para ter segmento de resultado*
+
+**Modu**
+
+* Conceitos matematicos
+* Modelos de visualizações 
+* Informações para agregar ao mercado  
+* Filtragem com  e suas operações<strong>SQL </strong>
+
+**Módulo Pandas**
+
+*Tratamento de dados com o framework pandas e alguns conceitos básicos ao avançados para agregar valor e segmento*
+
+
 
 <hr>
-
-
-
 
 Organização Projeto.
 ------------
@@ -14,6 +28,10 @@ Organização Projeto.
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources excel lib.
+    │
+    ├── docs
+    │   ├── data       <- Querys Resumidas
+    │   ├── figures   <- Figuras gráficas 
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
